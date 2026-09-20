@@ -8,7 +8,7 @@ app.use(express.json())
 let teaData = []
 let nextId = 1
 
-// add a new tea
+
 app.post('/teas', (req, res) => {
 
     const {name, price} = req.body
