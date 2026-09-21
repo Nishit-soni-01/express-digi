@@ -19,7 +19,7 @@ app.post('/teas', (req, res) => {
 })
 
 
-// get all tea
+
 app.get('/teas', (req, res) => {
     res.status(200).send(teaData)
 })
