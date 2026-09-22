@@ -25,7 +25,7 @@ app.get('/teas', (req, res) => {
 })
 
 
-// get a tea with id
+
 app.get('/teas/:id', (req, res) => {
     const tea = teaData.find(t => t.id == parseInt(req.params.id))
     if(!tea) {
