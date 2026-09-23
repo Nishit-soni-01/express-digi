@@ -35,7 +35,7 @@ app.get('/teas/:id', (req, res) => {
 })
 
 
-// update tea
+
 
 app.put('/teas/:id', (req, res) => {
     const tea = teaData.find(t => t.id == parseInt(req.params.id))
