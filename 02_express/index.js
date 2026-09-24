@@ -50,7 +50,7 @@ app.put('/teas/:id', (req, res) => {
     res.send(200).send(tea)
 })
 
-// delete tea
+
 
 app.delete('/teas/:id', (req, res) => {
     const index = teaData.findIndex(t => t.id == parseInt(req.params.id))
